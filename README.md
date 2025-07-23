@@ -31,8 +31,11 @@ Bu projeyi yerel bilgisayarınızda kurmak ve çalıştırmak oldukça basittir.
 1.  **Projeyi Klonlayın:**
     Terminalinizde veya komut istemcinizde aşağıdaki komutu kullanarak projeyi yerel bilgisayarınıza klonlayın:
     ```bash
-    git clone [https://github.com/KullaniciAdiniz/unit-converter-python.git](https://github.com/KullaniciAdiniz/unit-converter-python.git)
-    # Not: "KullaniciAdiniz" yerine kendi GitHub kullanıcı adınızı yazın.
+    1.  **Projeyi Klonlayın:**
+    Terminalinizde veya komut istemcinizde aşağıdaki komutu kullanarak projeyi yerel bilgisayarınıza klonlayın:
+    ```bash
+    git clone [https://github.com/Phpl3arn/unit-converter-python.git](https://github.com/Phpl3arn/unit-converter-python.git)
+    ```
     ```
 2.  **Proje Dizinine Girin:**
     ```bash
@@ -50,3 +53,30 @@ Artık birim dönüştürücü uygulamasını kullanmaya hazırsınız!
 İşte uygulamanın konsolda nasıl göründüğüne dair birkaç örnek:
 
 ### Örnek 1: Uzunluk Dönüşümü
+
+✨ Python Birim Dönüştürücüye Hoş Geldiniz! ✨
+Desteklenen dönüştürücü türleri: uzunluk, ağırlık, sıcaklık
+
+Dönüştürücünün türünü girin (uzunluk, ağırlık, sıcaklık) veya çıkmak için 'q' yazın: uzunluk
+Dönüştürülecek değeri giriniz: 20
+Dönüştürülecek birimi girin (örn: metre, inç, foot): foot
+Hangi birime dönüştürülsün (örn: santimetre, kilometre, mil): santimetre
+Sonuç: 20.0 foot = 609.60 santimetre
+
+
+### Örnek 2: Ağırlık Dönüşümü
+
+Dönüştürücünün türünü girin (uzunluk, ağırlık, sıcaklık) veya çıkmak için 'q' yazın: ağırlık
+Dönüştürülecek değeri giriniz: 5
+Dönüştürülecek birimi girin (örn: kilogram, pound, gram): kilogram
+Hangi birime dönüştürülsün (örn: miligram, ons): pound
+Sonuç: 5.0 kilogram = 11.02 pound
+
+
+### Örnek 3: Sıcaklık Dönüşümü
+
+Dönüştürücünün türünü girin (uzunluk, ağırlık, sıcaklık) veya çıkmak için 'q' yazın: sıcaklık
+Dönüştürülecek değeri giriniz: 25
+Dönüştürülecek birimi girin (örn: celsius, fahrenheit, kelvin): celsius
+Hangi birime dönüştürülsün (örn: kelvin, celsius): fahrenheit
+Sonuç: 25.0 celsius = 77.00 fahrenheit
